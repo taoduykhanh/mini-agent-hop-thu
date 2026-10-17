@@ -1,0 +1,1 @@
+{"id":"chao-mung","luc":"2026-10-17T17:00:00+07:00","noi_dung":"Hop thu san sang. Agent hoi bang dong {tu:agent, id, noi_dung}; bao ket qua bang dong {tu:agent, id, ket_qua_cho:task_id, noi_dung}; Muse tra loi bang dong {tu:muse, id, tra_loi_cho:id, noi_dung}. KHONG ghi secret vao day.","tu":"muse"}
