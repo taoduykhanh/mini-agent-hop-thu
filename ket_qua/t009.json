@@ -1,0 +1,9 @@
+{
+ "task_id": "t009",
+ "trang_thai": "loi",
+ "tom_tat": "disconnected everything | STDERR: UnicodeEncodeError: 'charmap' codec can't encode character '\\u1eed' in position 19: character maps to <undefined>",
+ "output": "B1: don dep offline entries\r\ndisconnected everything\r\n",
+ "stderr": "Traceback (most recent call last):\r\n  File \"C:\\Users\\khanhpc\\Downloads\\mini-agent-v4\\mini-agent-v4\\_task_t009.py\", line 20, in <module>\r\n    print(\"B2: adb devices (th\\u1eed 3 l\\u1ea7n, c�ch 20s)\", flush=True)\r\n    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\r\n  File \"C:\\Users\\khanhpc\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\encodings\\cp1252.py\", line 19, in encode\r\n    return codecs.charmap_encode(input,self.errors,encoding_table)[0]\r\n           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\r\nUnicodeEncodeError: 'charmap' codec can't encode character '\\u1eed' in position 19: character maps to <undefined>\r\n",
+ "runner": "4.3",
+ "luc": "2026-10-18T18:02:37"
+}
