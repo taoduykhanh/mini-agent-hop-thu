@@ -1,1 +1,1 @@
-{"task_id": "t008", "mo_ta": "Tim port VM dang nghe roi adb connect thu tung port", "timeout_giay": 120}
+{"task_id": "t009", "mo_ta": "Kiem tra adb sau khi bat Debug ADB + restart VM; chup man hinh neu thay", "timeout_giay": 180}
