@@ -1,0 +1,9 @@
+{
+ "task_id": "t006",
+ "trang_thai": "xong",
+ "tom_tat": "XONG: t006 hoan tat",
+ "output": "B1: duong dan process gia lap dang chay\r\n(rong)\r\nB2: thu muc LDPlayer o E\r\nldmutiplayer\r\r\nLDPlayer9\r\r\nOSLink\r\nB3: port LISTEN lien quan adb\r\nTCP    127.0.0.1:5037         0.0.0.0:0              LISTENING       8952\r\nXONG: t006 hoan tat\r\n",
+ "stderr": "",
+ "runner": "4.3",
+ "luc": "2026-10-18T17:15:46"
+}
