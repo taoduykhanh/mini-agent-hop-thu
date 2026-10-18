@@ -1,0 +1,9 @@
+{
+ "task_id": "t010",
+ "trang_thai": "xong",
+ "tom_tat": "XONG: t010 hoan tat",
+ "output": "B1: don dep offline entries\r\ndisconnected everything\r\nB2: adb devices (3 lan, cach 20s)\r\nlan 1: List of devices attached\r\nlan 2: List of devices attached\r\r\nemulator-5554\tdevice\r\nB3: THAY THIET BI! chup man hinh index 0\r\nChup that bai (kiem tra LDPlayer co mo cua so 0 khong)\r\nXONG: t010 hoan tat\r\n",
+ "stderr": "",
+ "runner": "4.4",
+ "luc": "2026-10-18T18:08:16"
+}
