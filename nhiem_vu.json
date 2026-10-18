@@ -1,1 +1,1 @@
-{"task_id": "t003", "mo_ta": "Thu adb vao index 0 va 1 xem may ao nao phan hoi", "timeout_giay": 90}
+{"task_id": "t004", "mo_ta": "Quet adb: devices, restart server, connect thu cong 5555/5557", "timeout_giay": 120}
