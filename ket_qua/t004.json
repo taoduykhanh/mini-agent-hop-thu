@@ -1,0 +1,9 @@
+{
+ "task_id": "t004",
+ "trang_thai": "xong",
+ "tom_tat": "XONG: t004 hoan tat",
+ "output": "adb.exe: E:\\LDPlayer\\LDPlayer9\\adb.exe ton tai=True\r\nB1: adb devices\r\nrc=0 out=[List of devices attached] err=[]\r\nB2: kill-server + start-server\r\nrc=0 out=[] err=[]\r\nrc=0 out=[] err=[* daemon not running; starting now at tcp:5037\r\r\n* daemon started successfully]\r\nB3: adb devices sau restart\r\nrc=0 out=[List of devices attached] err=[]\r\nB4: thu connect thu cong cong 5555/5557\r\nconnect 127.0.0.1:5555 -> rc=0 out=[cannot connect to 127.0.0.1:5555: No connection could be made because the target machine actively refused it. (10061)] err=[]\r\nconnect 127.0.0.1:5557 -> rc=0 out=[cannot connect to 127.0.0.1:5557: No connection could be made because the target machine actively refused it. (10061)] err=[]\r\nB5: adb devices cuoi\r\nrc=0 out=[List of devices attached] err=[]\r\nXONG: t004 hoan tat\r\n",
+ "stderr": "",
+ "runner": "4.3",
+ "luc": "2026-10-18T17:00:05"
+}
