@@ -19,7 +19,7 @@ import subprocess
 import sys
 import time
 
-RUNNER_VERSION = "4.3"
+RUNNER_VERSION = "4.4"
 
 if os.name == "nt":
     try:
@@ -183,9 +183,11 @@ def chay_nhiem_vu(nv):
     else:
         popen_kw["start_new_session"] = True
     try:
+        env = dict(os.environ)
+        env["PYTHONUTF8"] = "1"  # task duoc phep in tieng Viet co dau
         p = subprocess.Popen([sys.executable, "-u", fpath],
                              stdout=subprocess.PIPE, stderr=subprocess.PIPE,
-                             cwd=BASE_DIR, **popen_kw)
+                             cwd=BASE_DIR, env=env, **popen_kw)
         try:
             so, se = p.communicate(timeout=timeout)
             trang_thai = "xong" if p.returncode == 0 else "loi"

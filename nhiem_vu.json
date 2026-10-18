@@ -1,1 +1,1 @@
-{"task_id": "t009", "mo_ta": "Kiem tra adb sau khi bat Debug ADB + restart VM; chup man hinh neu thay", "timeout_giay": 180}
+{"task_id": "t010", "mo_ta": "Kiem tra adb sau khi bat Debug ADB (ban khong dau) + chup man hinh", "timeout_giay": 180}
