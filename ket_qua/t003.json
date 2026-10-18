@@ -1,0 +1,9 @@
+{
+ "task_id": "t003",
+ "trang_thai": "xong",
+ "tom_tat": "XONG: t003 hoan tat",
+ "output": "Thu adb echo vao index 0 (15s)...\r\nindex 0: rc=0 out=[adb.exe: device 'emulator-5554' not found] err=[]\r\nThu adb echo vao index 1 (15s)...\r\nindex 1: rc=0 out=[adb.exe: device 'emulator-5556' not found] err=[]\r\nXONG: t003 hoan tat\r\n",
+ "stderr": "",
+ "runner": "4.3",
+ "luc": "2026-10-18T16:49:34"
+}
