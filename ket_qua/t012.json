@@ -1,0 +1,9 @@
+{
+ "task_id": "t012",
+ "trang_thai": "xong",
+ "tom_tat": "XONG: t012 hoan tat",
+ "output": "B0: tim device + kich thuoc man hinh\r\nList of devices attached\r\r\nemulator-5554\tdevice\r\nserial: emulator-5554\r\nw=1920 h=1080\r\nB1: bam nut Tui\r\ntap (1795, 324)\r\nanh: C:\\Users\\khanhpc\\Downloads\\mini-agent-v4\\mini-agent-v4\\t012_1_mo_tui.png\r\nB2: bam nut Thu Hoi trong tui\r\ntap (1190, 972)\r\nanh: C:\\Users\\khanhpc\\Downloads\\mini-agent-v4\\mini-agent-v4\\t012_2_thu_hoi.png\r\nB3: bam nut Thu Hoi trong giao dien thu hoi\r\ntap (1632, 972)\r\nanh: C:\\Users\\khanhpc\\Downloads\\mini-agent-v4\\mini-agent-v4\\t012_3_xong.png\r\nXONG: t012 hoan tat\r\n",
+ "stderr": "",
+ "runner": "4.4",
+ "luc": "2026-10-18T18:39:33"
+}
