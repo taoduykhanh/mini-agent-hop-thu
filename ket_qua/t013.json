@@ -1,0 +1,9 @@
+{
+ "task_id": "t013",
+ "trang_thai": "xong",
+ "tom_tat": "XONG: t013 hoan tat",
+ "output": "B0: doc vi tri da hieu chuan\r\nnut: {'nut_tui': [1865, 401], 'nut_thu_hoi_1': [1682, 1005], 'nut_thu_hoi_2': [1618, 977]}\r\nserial: emulator-5554\r\nB1: bam nut_tui\r\nDa tap (1865, 401) [nut: nut_tui]\r\nanh: C:\\Users\\khanhpc\\Downloads\\mini-agent-v4\\mini-agent-v4\\t013_1_mo_tui.png\r\nB2: bam nut_thu_hoi_1\r\nDa tap (1682, 1005) [nut: nut_thu_hoi_1]\r\nanh: C:\\Users\\khanhpc\\Downloads\\mini-agent-v4\\mini-agent-v4\\t013_2_thu_hoi.png\r\nB3: bam nut_thu_hoi_2\r\nDa tap (1618, 977) [nut: nut_thu_hoi_2]\r\nanh: C:\\Users\\khanhpc\\Downloads\\mini-agent-v4\\mini-agent-v4\\t013_3_xong.png\r\nXONG: t013 hoan tat\r\n",
+ "stderr": "",
+ "runner": "4.4",
+ "luc": "2026-10-18T19:15:51"
+}
