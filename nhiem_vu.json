@@ -1,1 +1,1 @@
-{"task_id": "t004", "mo_ta": "Quet adb: devices, restart server, connect thu cong 5555/5557", "timeout_giay": 120}
+{"task_id": "t005", "mo_ta": "Liet ke process gia lap dang chay + port adb dang nghe", "timeout_giay": 90}
