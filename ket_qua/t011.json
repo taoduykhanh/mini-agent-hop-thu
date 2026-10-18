@@ -1,0 +1,9 @@
+{
+ "task_id": "t011",
+ "trang_thai": "xong",
+ "tom_tat": "XONG: t011 hoan tat",
+ "output": "B1: adb devices\r\nList of devices attached\r\r\nemulator-5554\tdevice\r\nB2: ldconsole echo index 0/1\r\nindex 0: rc=0 out=[ok]\r\nindex 1: rc=0 out=[adb.exe: device 'emulator-5556' not found]\r\nB3: chup truc tiep qua adb -s emulator-5554\r\npull rc=0 /sdcard/mu_t011.png: 1 file pulled, 0 skipped. 66.2 MB/s (2421911 bytes in 0.035s) \r\nfile ton tai: True\r\nOK: Da luu anh: C:\\Users\\khanhpc\\Downloads\\mini-agent-v4\\mini-agent-v4\\shot_t011.png\r\nXONG: t011 hoan tat\r\n",
+ "stderr": "",
+ "runner": "4.4",
+ "luc": "2026-10-18T18:13:02"
+}
