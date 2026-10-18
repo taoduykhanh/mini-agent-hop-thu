@@ -1,0 +1,9 @@
+{
+ "task_id": "t002",
+ "trang_thai": "xong",
+ "tom_tat": "XONG: t002 hoan tat",
+ "output": "B1: tim ldconsole...\r\nB1 OK: E:\\LDPlayer\\LDPlayer9\\ldconsole.exe\r\nB2: thu lenh list (10s)...\r\nB2 OK rc=0: LDPlayer\r\r\nLDPlayer-1\r\r\n\r\nB3: thu adb echo (15s)...\r\nB3 OK rc=0: adb.exe: device 'emulator-5554' not found\r\r\r\n\r\nXONG: t002 hoan tat\r\n",
+ "stderr": "",
+ "runner": "4.3",
+ "luc": "2026-10-18T16:39:08"
+}
