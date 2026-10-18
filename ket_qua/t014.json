@@ -1,0 +1,9 @@
+{
+ "task_id": "t014",
+ "trang_thai": "xong",
+ "tom_tat": "XONG: t014 hoan tat",
+ "output": "B1: liet ke app ben thu 3\r\npackage:app.smartpk.mu\r\r\npackage:com.google.android.verifier\r\r\npackage:com.google.ar.core\r\r\npackage:vng.games.mu.webzen.online\r\nnghi van SmartPK: ['app.smartpk.mu']\r\nB2: pull APK cua app.smartpk.mu\r\n['/data/app/app.smartpk.mu-GHI-_gQ4rc9pTtIk6LaIMA==/base.apk']\r\nda pull: ['C:\\\\Users\\\\khanhpc\\\\Downloads\\\\mini-agent-v4\\\\mini-agent-v4\\\\smartpk_0.apk (1051577 bytes)']\r\nB3: thong tin package\r\nversionName: 1.0.6\r\npermissions (9): ACCESS_NETWORK_STATE, FOREGROUND_SERVICE, INTERNET, READ_EXTERNAL_STORAGE, RECEIVE_BOOT_COMPLETED, REQUEST_IGNORE_BATTERY_OPTIMIZATIONS, SYSTEM_ALERT_WINDOW, WAKE_LOCK, WRITE_EXTERNAL_STORAGE\r\nXONG: t014 hoan tat\r\n",
+ "stderr": "",
+ "runner": "4.4",
+ "luc": "2026-10-18T19:36:25"
+}
