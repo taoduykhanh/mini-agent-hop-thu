@@ -1,1 +1,1 @@
-{"task_id": "t007", "mo_ta": "Tim adb.exe trong C:\\Program Files\\ldplayer9box roi adb devices", "timeout_giay": 90}
+{"task_id": "t008", "mo_ta": "Tim port VM dang nghe roi adb connect thu tung port", "timeout_giay": 120}
