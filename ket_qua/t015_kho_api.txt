@@ -1,0 +1,585 @@
+=== T015: TIM API KHO / HOM DO ===
+Thu muc agent: C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4
+Thu muc nha user: C:\Users\khanhpc
+
+--- GOC LUA TIM THAY (5) ---
+C:\Users\khanhpc\AppData\Local\Temp\claude\E--GitHub-mini-agent-hop-thu\e3d64810-3576-4903-a846-eff0638da9aa\scratchpad  (~6 file .lua)
+C:\Users\khanhpc\AppData\Local\Temp\claude\E--GitHub-mini-agent-hop-thu\e3d64810-3576-4903-a846-eff0638da9aa\scratchpad\game_pull  (~3 file .lua)
+C:\Users\khanhpc\Downloads\mini-agent-v4  (~406 file .lua)
+C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4  (~406 file .lua)
+C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject  (~406 file .lua)
+
+--- KET QUA GREP KHO (quet 3952 file, 1119 dong khop) ---
+[8] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gamecontroller\baginfocontroller.lua:289: NetManager.Send(BagMessage.ReqBagsAndStorage, { type = EBagSortType.One })
+[8] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\bag_3dbaginfoui.lua:847: NetManager.Send(BagMessage.ReqBagsAndStorage, { type = EBagSortType.One })
+[8] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\bag_3dbaginfoui.lua:868: UIManager.JumpShow(UIPanelType.SortAndHide, UIID.BagWarehouseUI)
+[8] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\bag_3dbaginfoui.lua:937: elseif fromUiName == UIID.BagWarehouseUI then
+[8] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\bag_3dbaginfoui.lua:938: NetManager.Send(BagMessage.ReqTakeOutFromStorage, {
+[8] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\bag_3dbaginfoui.lua:947: if UIManager.IsVisibleOrCorrelation(UIID.BagWarehouseUI, self) then
+[8] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\bag_3dbaginfoui.lua:976: NetManager.Send(BagMessage.ReqPutIntoStorage, {
+[8] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\bag_3dbaginfoui.lua:1122: if UIManager.IsVisibleOrCorrelation(UIID.BagWarehouseUI, self) then
+[8] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\bag_warehouseinfoui.lua:173: UIManager.Hide(UIID.BagWarehouseUI)
+[8] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\bag_warehouseinfoui.lua:182: NetManager.Send(BagMessage.ReqBagsAndStorage, { type = EBagSortType.Two })
+[8] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\bag_warehouseinfoui.lua:195: NetManager.Send(BagMessage.ReqTakeOutFromStorage, {
+[8] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\bag_warehouseinfoui.lua:213: NetManager.Send(BagMessage.ReqPutIntoStorage, {
+[8] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\bag_warehouseinfoui.lua:270: r21_1 = BagMessage.ReqChangeStorageName
+[8] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\bag_warehouseinfoui.lua:302: NetManager.Send(BagMessage.ReqExtendStorage, {
+[8] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\bag_warehouseinfoui.lua:321: function Bag_WarehouseInfoUI.OnResStorageUpdate(self, _, msg) -- proto#26 params=3 locals=6 upvalues=1 vararg=false source=@Assets/Src/Lua/GameUI/Bag_WarehouseInfoUI.lua lines=326-338
+[8] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\bag_warehouseinfoui.lua:334: function Bag_WarehouseInfoUI.OnResStorageInfo(self, _, msg) -- proto#27 params=3 locals=6 upvalues=1 vararg=false source=@Assets/Src/Lua/GameUI/Bag_WarehouseInfoUI.lua lines=340-348
+[8] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\bag_warehouseinfoui.lua:406: self.lab_WarehouseName:SetText(BagInfoData.storageName[BagInfoData.curStoragePage] or "")
+[8] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\card_constellationui.lua:824: NetManager.Send(BagMessage.ReqBagsAndStorage, { type = EBagSortType.Three })
+[8] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\card_constellationui.lua:1390: NetManager.Send(BagMessage.ReqBagsAndStorage, { type = EBagSortType.Three })
+[8] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\coin_shengyiwubagui.lua:119: NetManager.Send(BagMessage.ReqBagsAndStorage, { type = EBagSortType.Six })
+[8] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\main_mainmenuui.lua:3554: NetManager.Send(BagMessage.ReqStorageInfo)
+[8] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\main_mapdetailui.lua:1698: UIManager.JumpShow(UIPanelType.SortAndHide, UIID.BagWarehouseUI)
+[8] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\tip_itemtiptwoui.lua:1470: NetManager.Send(BagMessage.ReqTakeOutFromStorage, {
+[8] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\tip_itemtiptwoui.lua:1477: NetManager.Send(BagMessage.ReqPutIntoStorage, {
+[8] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\tip_itemtiptwoui.lua:2704: or UIManager.IsVisible(UIID.BagWarehouseUI) then
+[8] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\tip_itemtiptwoui.lua:6992: r145_3 = r145_3(UIID.BagWarehouseUI)
+[8] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\luacore\net\message\bag.lua:8: ReqStorageInfo = 203005, ResStorageInfo = 203006, ReqPutIntoStorage = 203007,
+[8] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\luacore\net\message\bag.lua:9: ReqTakeOutFromStorage = 203008, ResStorageUpdate = 203009, ResBagChange = 203010,
+[8] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\luacore\net\message\bag.lua:10: ReqBagsAndStorage = 203011, ReqAddCell = 203012, ResItemCheckCount = 203014,
+[8] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\luacore\net\message\bag.lua:13: ResAllStorageInfo = 203021, ReqChangeStorageName = 203022, ReqExtendStorage = 203023,
+[8] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\luacore\net\message\bag.lua:27: MessageIDToName[203011] = "BagPackage.ReqBagsAndStorage"
+[8] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\luacore\net\message\bag.lua:37: MessageIDToName[203022] = "BagPackage.ReqChangeStorageName"
+[8] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\luacore\net\message\bag.lua:38: MessageIDToName[203023] = "BagPackage.ReqExtendStorage"
+[8] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\utility\itemutility.lua:1501: NetManager.Send(BagMessage.ReqExtendStorage, {
+[8] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\utility\itemutility.lua:1515: UIManager.JumpShow(UIPanelType.SortAndHide, UIID.BagWarehouseUI)
+[8] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\utility\tiputility.lua:125: TipUtility.ShowPrompt("tishi", "WarehouseNoVip", "cfg_ui_word", "SellNoVip_white", "SellNoVip_4", this.OpenStorageCancel, this.OpenStorageOk, nil, nil, contentKey, "ty_btn_short3_new", "ty_btn_short_red")
+[8] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gamecontroller\baginfocontroller.lua:289: NetManager.Send(BagMessage.ReqBagsAndStorage, { type = EBagSortType.One })
+[8] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\bag_3dbaginfoui.lua:847: NetManager.Send(BagMessage.ReqBagsAndStorage, { type = EBagSortType.One })
+[8] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\bag_3dbaginfoui.lua:868: UIManager.JumpShow(UIPanelType.SortAndHide, UIID.BagWarehouseUI)
+[8] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\bag_3dbaginfoui.lua:937: elseif fromUiName == UIID.BagWarehouseUI then
+[8] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\bag_3dbaginfoui.lua:938: NetManager.Send(BagMessage.ReqTakeOutFromStorage, {
+[8] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\bag_3dbaginfoui.lua:947: if UIManager.IsVisibleOrCorrelation(UIID.BagWarehouseUI, self) then
+[8] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\bag_3dbaginfoui.lua:976: NetManager.Send(BagMessage.ReqPutIntoStorage, {
+[8] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\bag_3dbaginfoui.lua:1122: if UIManager.IsVisibleOrCorrelation(UIID.BagWarehouseUI, self) then
+[8] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\bag_warehouseinfoui.lua:173: UIManager.Hide(UIID.BagWarehouseUI)
+[8] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\bag_warehouseinfoui.lua:182: NetManager.Send(BagMessage.ReqBagsAndStorage, { type = EBagSortType.Two })
+[8] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\bag_warehouseinfoui.lua:195: NetManager.Send(BagMessage.ReqTakeOutFromStorage, {
+[8] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\bag_warehouseinfoui.lua:213: NetManager.Send(BagMessage.ReqPutIntoStorage, {
+[8] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\bag_warehouseinfoui.lua:270: r21_1 = BagMessage.ReqChangeStorageName
+[8] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\bag_warehouseinfoui.lua:302: NetManager.Send(BagMessage.ReqExtendStorage, {
+[8] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\bag_warehouseinfoui.lua:321: function Bag_WarehouseInfoUI.OnResStorageUpdate(self, _, msg) -- proto#26 params=3 locals=6 upvalues=1 vararg=false source=@Assets/Src/Lua/GameUI/Bag_WarehouseInfoUI.lua lines=326-338
+[8] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\bag_warehouseinfoui.lua:334: function Bag_WarehouseInfoUI.OnResStorageInfo(self, _, msg) -- proto#27 params=3 locals=6 upvalues=1 vararg=false source=@Assets/Src/Lua/GameUI/Bag_WarehouseInfoUI.lua lines=340-348
+[8] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\bag_warehouseinfoui.lua:406: self.lab_WarehouseName:SetText(BagInfoData.storageName[BagInfoData.curStoragePage] or "")
+[8] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\card_constellationui.lua:824: NetManager.Send(BagMessage.ReqBagsAndStorage, { type = EBagSortType.Three })
+[8] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\card_constellationui.lua:1390: NetManager.Send(BagMessage.ReqBagsAndStorage, { type = EBagSortType.Three })
+[8] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\coin_shengyiwubagui.lua:119: NetManager.Send(BagMessage.ReqBagsAndStorage, { type = EBagSortType.Six })
+[8] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\main_mainmenuui.lua:3554: NetManager.Send(BagMessage.ReqStorageInfo)
+[8] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\main_mapdetailui.lua:1698: UIManager.JumpShow(UIPanelType.SortAndHide, UIID.BagWarehouseUI)
+[8] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\tip_itemtiptwoui.lua:1470: NetManager.Send(BagMessage.ReqTakeOutFromStorage, {
+[8] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\tip_itemtiptwoui.lua:1477: NetManager.Send(BagMessage.ReqPutIntoStorage, {
+[8] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\tip_itemtiptwoui.lua:2704: or UIManager.IsVisible(UIID.BagWarehouseUI) then
+[8] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\tip_itemtiptwoui.lua:6992: r145_3 = r145_3(UIID.BagWarehouseUI)
+[8] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\luacore\net\message\bag.lua:8: ReqStorageInfo = 203005, ResStorageInfo = 203006, ReqPutIntoStorage = 203007,
+[8] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\luacore\net\message\bag.lua:9: ReqTakeOutFromStorage = 203008, ResStorageUpdate = 203009, ResBagChange = 203010,
+[8] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\luacore\net\message\bag.lua:10: ReqBagsAndStorage = 203011, ReqAddCell = 203012, ResItemCheckCount = 203014,
+[8] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\luacore\net\message\bag.lua:13: ResAllStorageInfo = 203021, ReqChangeStorageName = 203022, ReqExtendStorage = 203023,
+[8] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\luacore\net\message\bag.lua:27: MessageIDToName[203011] = "BagPackage.ReqBagsAndStorage"
+[8] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\luacore\net\message\bag.lua:37: MessageIDToName[203022] = "BagPackage.ReqChangeStorageName"
+[8] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\luacore\net\message\bag.lua:38: MessageIDToName[203023] = "BagPackage.ReqExtendStorage"
+[8] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\utility\itemutility.lua:1501: NetManager.Send(BagMessage.ReqExtendStorage, {
+[8] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\utility\itemutility.lua:1515: UIManager.JumpShow(UIPanelType.SortAndHide, UIID.BagWarehouseUI)
+[8] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\utility\tiputility.lua:125: TipUtility.ShowPrompt("tishi", "WarehouseNoVip", "cfg_ui_word", "SellNoVip_white", "SellNoVip_4", this.OpenStorageCancel, this.OpenStorageOk, nil, nil, contentKey, "ty_btn_short3_new", "ty_btn_short_red")
+[8] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gamecontroller\baginfocontroller.lua:289: NetManager.Send(BagMessage.ReqBagsAndStorage, { type = EBagSortType.One })
+[8] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\bag_3dbaginfoui.lua:847: NetManager.Send(BagMessage.ReqBagsAndStorage, { type = EBagSortType.One })
+[8] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\bag_3dbaginfoui.lua:868: UIManager.JumpShow(UIPanelType.SortAndHide, UIID.BagWarehouseUI)
+[8] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\bag_3dbaginfoui.lua:937: elseif fromUiName == UIID.BagWarehouseUI then
+[8] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\bag_3dbaginfoui.lua:938: NetManager.Send(BagMessage.ReqTakeOutFromStorage, {
+[8] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\bag_3dbaginfoui.lua:947: if UIManager.IsVisibleOrCorrelation(UIID.BagWarehouseUI, self) then
+[8] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\bag_3dbaginfoui.lua:976: NetManager.Send(BagMessage.ReqPutIntoStorage, {
+[8] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\bag_3dbaginfoui.lua:1122: if UIManager.IsVisibleOrCorrelation(UIID.BagWarehouseUI, self) then
+[8] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\bag_warehouseinfoui.lua:173: UIManager.Hide(UIID.BagWarehouseUI)
+[8] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\bag_warehouseinfoui.lua:182: NetManager.Send(BagMessage.ReqBagsAndStorage, { type = EBagSortType.Two })
+[8] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\bag_warehouseinfoui.lua:195: NetManager.Send(BagMessage.ReqTakeOutFromStorage, {
+[8] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\bag_warehouseinfoui.lua:213: NetManager.Send(BagMessage.ReqPutIntoStorage, {
+[8] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\bag_warehouseinfoui.lua:270: r21_1 = BagMessage.ReqChangeStorageName
+[8] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\bag_warehouseinfoui.lua:302: NetManager.Send(BagMessage.ReqExtendStorage, {
+[8] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\bag_warehouseinfoui.lua:321: function Bag_WarehouseInfoUI.OnResStorageUpdate(self, _, msg) -- proto#26 params=3 locals=6 upvalues=1 vararg=false source=@Assets/Src/Lua/GameUI/Bag_WarehouseInfoUI.lua lines=326-338
+[8] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\bag_warehouseinfoui.lua:334: function Bag_WarehouseInfoUI.OnResStorageInfo(self, _, msg) -- proto#27 params=3 locals=6 upvalues=1 vararg=false source=@Assets/Src/Lua/GameUI/Bag_WarehouseInfoUI.lua lines=340-348
+[8] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\bag_warehouseinfoui.lua:406: self.lab_WarehouseName:SetText(BagInfoData.storageName[BagInfoData.curStoragePage] or "")
+[8] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\card_constellationui.lua:824: NetManager.Send(BagMessage.ReqBagsAndStorage, { type = EBagSortType.Three })
+[8] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\card_constellationui.lua:1390: NetManager.Send(BagMessage.ReqBagsAndStorage, { type = EBagSortType.Three })
+[8] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\coin_shengyiwubagui.lua:119: NetManager.Send(BagMessage.ReqBagsAndStorage, { type = EBagSortType.Six })
+[8] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\main_mainmenuui.lua:3554: NetManager.Send(BagMessage.ReqStorageInfo)
+[8] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\main_mapdetailui.lua:1698: UIManager.JumpShow(UIPanelType.SortAndHide, UIID.BagWarehouseUI)
+[8] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\tip_itemtiptwoui.lua:1470: NetManager.Send(BagMessage.ReqTakeOutFromStorage, {
+[8] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\tip_itemtiptwoui.lua:1477: NetManager.Send(BagMessage.ReqPutIntoStorage, {
+[8] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\tip_itemtiptwoui.lua:2704: or UIManager.IsVisible(UIID.BagWarehouseUI) then
+[8] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\tip_itemtiptwoui.lua:6992: r145_3 = r145_3(UIID.BagWarehouseUI)
+[8] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\luacore\net\message\bag.lua:8: ReqStorageInfo = 203005, ResStorageInfo = 203006, ReqPutIntoStorage = 203007,
+[8] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\luacore\net\message\bag.lua:9: ReqTakeOutFromStorage = 203008, ResStorageUpdate = 203009, ResBagChange = 203010,
+[8] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\luacore\net\message\bag.lua:10: ReqBagsAndStorage = 203011, ReqAddCell = 203012, ResItemCheckCount = 203014,
+[8] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\luacore\net\message\bag.lua:13: ResAllStorageInfo = 203021, ReqChangeStorageName = 203022, ReqExtendStorage = 203023,
+[8] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\luacore\net\message\bag.lua:27: MessageIDToName[203011] = "BagPackage.ReqBagsAndStorage"
+[8] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\luacore\net\message\bag.lua:37: MessageIDToName[203022] = "BagPackage.ReqChangeStorageName"
+[8] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\luacore\net\message\bag.lua:38: MessageIDToName[203023] = "BagPackage.ReqExtendStorage"
+[8] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\utility\itemutility.lua:1501: NetManager.Send(BagMessage.ReqExtendStorage, {
+[8] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\utility\itemutility.lua:1515: UIManager.JumpShow(UIPanelType.SortAndHide, UIID.BagWarehouseUI)
+[8] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\utility\tiputility.lua:125: TipUtility.ShowPrompt("tishi", "WarehouseNoVip", "cfg_ui_word", "SellNoVip_white", "SellNoVip_4", this.OpenStorageCancel, this.OpenStorageOk, nil, nil, contentKey, "ty_btn_short3_new", "ty_btn_short_red")
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\config\globalconfig.lua:59: GlobalConfig.storageCondition = this.GetGlobalConfig(2140005)
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\config\globalconfig.lua:60: GlobalConfig.storageJump = this.GetGlobalConfig(2140006)
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\config\globalconfig.lua:61: GlobalConfig.storageVipOpen = this.GetGlobalConfig(2140010)
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\config\globalconfig.lua:72: GlobalConfig.storageInitCount = tonumber(this.GetGlobalConfig(2080001))
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\config\globalconfig.lua:73: GlobalConfig.storageMaxCount = tonumber(this.GetGlobalConfig(2080002))
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameconst\itemenum.lua:17: EDragUIType = { Bag = enum(1), WarehouseInfoUI = enum(2) }
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameconst\itemenum.lua:193: r0_2 = "Warehouse"
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gamecontroller\baginfocontroller.lua:31: this.messageContainer:Regist(BagMessage.ResAllStorageInfo, this.ResAllStorageInfo)
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gamecontroller\baginfocontroller.lua:32: this.messageContainer:Regist(BagMessage.ResStorageInfo, this.OnResStorageInfo)
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gamecontroller\baginfocontroller.lua:33: this.messageContainer:Regist(BagMessage.ResStorageUpdate, this.OnResStorageUpdate)
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gamecontroller\baginfocontroller.lua:34: this.messageContainer:Regist(BagMessage.ResStorageGridExtend, this.OnResStorageGridExtend)
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gamecontroller\baginfocontroller.lua:551: function BagInfoController.ResAllStorageInfo(_, msg) -- proto#25 params=2 locals=6 upvalues=1 vararg=false source=@Assets/Src/Lua/GameController/BagInfoController.lua lines=612-631
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gamecontroller\baginfocontroller.lua:553: BagInfoData.StorageReSet()
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gamecontroller\baginfocontroller.lua:555: if not BagInfoData.storageInfos[i] then
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gamecontroller\baginfocontroller.lua:556: BagInfoData.storageInfos[i] = {}
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gamecontroller\baginfocontroller.lua:559: BagInfoData.SaveAndConfigInfo(BagInfoData.storageInfos[i], item)
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gamecontroller\baginfocontroller.lua:561: BagInfoData.storageCount[i] = v.gridCount
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gamecontroller\baginfocontroller.lua:566: BagInfoData.storageName[i] = tempName
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gamecontroller\baginfocontroller.lua:569: EventManager.Dispatch(Event.Bag_ResStorageInfo)
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gamecontroller\baginfocontroller.lua:572: function BagInfoController.OnResStorageInfo(_, msg) -- proto#26 params=2 locals=11 upvalues=1 vararg=false source=@Assets/Src/Lua/GameController/BagInfoController.lua lines=633-658
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gamecontroller\baginfocontroller.lua:574: if not BagInfoData.storageInfos[msg.index] then
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gamecontroller\baginfocontroller.lua:575: BagInfoData.storageInfos[msg.index] = {}
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gamecontroller\baginfocontroller.lua:577: for k, _2 in pairs(BagInfoData.storageInfos[msg.index]) do
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gamecontroller\baginfocontroller.lua:578: local r26_2 = BagInfoData.storageInfos[msg.index]
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gamecontroller\baginfocontroller.lua:581: local r26_3 = BagInfoData.storageInfos
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gamecontroller\baginfocontroller.lua:585: r26_3 = BagInfoData.storageCount
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gamecontroller\baginfocontroller.lua:598: r26_7 = r26_7.storageName
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gamecontroller\baginfocontroller.lua:602: BagInfoData.SaveAndConfigInfo(BagInfoData.storageInfos[msg.index], item)
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gamecontroller\baginfocontroller.lua:605: EventManager.Dispatch(Event.Bag_ResStorageInfo, msg)
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gamecontroller\baginfocontroller.lua:608: function BagInfoController.OnResStorageUpdate(_, msg) -- proto#27 params=2 locals=5 upvalues=1 vararg=false source=@Assets/Src/Lua/GameController/BagInfoController.lua lines=660-664
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gamecontroller\baginfocontroller.lua:609: local removeItems = BagInfoData.RemoveStorageItem(msg.removeItem, msg.index)
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gamecontroller\baginfocontroller.lua:610: BagInfoData.UpdateStorageItems(msg.item)
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gamecontroller\baginfocontroller.lua:611: EventManager.Dispatch(Event.Bag_ResStorageUpdate, {
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gamecontroller\baginfocontroller.lua:622: elseif msg.type == EDragUIType.WarehouseInfoUI then
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gamecontroller\baginfocontroller.lua:623: BagInfoData.MoveItem(BagInfoData.storageInfos[BagInfoData.curStoragePage], moveItems)
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gamecontroller\baginfocontroller.lua:630: function BagInfoController.OnResStorageGridExtend(_, msg) -- proto#29 params=2 locals=4 upvalues=1 vararg=false source=@Assets/Src/Lua/GameController/BagInfoController.lua lines=681-697
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gamecontroller\baginfocontroller.lua:632: msg.type = msg.type == EDragUIType.Bag and EDragUIType.Bag or EDragUIType.WarehouseInfoUI
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gamecontroller\baginfocontroller.lua:641: BagInfoData.storageCount[msg.index] = msg.gridCount
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gamecontroller\logincontroller.lua:141: BagInfoData.StorageReSet()
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gamecontroller\storehousecontroller.lua:16: this.messageContainer:Regist(BagMessage.ResStorageInfo, StoreHouseController.OnResStorageInfo)
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gamecontroller\storehousecontroller.lua:17: this.messageContainer:Regist(BagMessage.ResStorageUpdate, StoreHouseController.OnResStorageUpdate)
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gamecontroller\storehousecontroller.lua:20: function StoreHouseController.OnResStorageInfo(_, data) -- proto#3 params=2 locals=1 upvalues=1 vararg=false source=@Assets/Src/Lua/GameController/StoreHouseController.lua lines=17-20
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gamecontroller\storehousecontroller.lua:22: StoreHouseData.storageInfoTbl = data.items
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gamecontroller\storehousecontroller.lua:25: function StoreHouseController.OnResStorageUpdate(_, data) -- proto#4 params=2 locals=0 upvalues=0 vararg=false source=@Assets/Src/Lua/GameController/StoreHouseController.lua lines=23-25
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gamemodel\baginfodata.lua:54: r0_12.storageInfos = r0_2
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gamemodel\baginfodata.lua:57: r0_13.curStorageCount = r0_2
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gamemodel\baginfodata.lua:60: r0_14.storageCount = r0_2
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gamemodel\baginfodata.lua:61: BagInfoData.curStoragePage = 1
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gamemodel\baginfodata.lua:66: r0_15.maxStoragePage = r0_2
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gamemodel\baginfodata.lua:69: r0_16.storageName = r0_2
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gamemodel\baginfodata.lua:318: function r0_2.StorageReSet() -- proto#10 params=0 locals=3 upvalues=2 vararg=false source=@Assets/Src/Lua/GameModel/BagInfoData.lua lines=304-311
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gamemodel\baginfodata.lua:319: for k, _ in pairs(this.storageInfos) do
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gamemodel\baginfodata.lua:320: this.storageInfos[k] = nil
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gamemodel\baginfodata.lua:323: this.storageInfos = r10_2
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gamemodel\baginfodata.lua:325: this.curStorageCount = r10_2
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gamemodel\baginfodata.lua:523: function r0_2.RemoveStorageItem(removeItems) -- proto#21 params=1 locals=7 upvalues=2 vararg=false source=@Assets/Src/Lua/GameModel/BagInfoData.lua lines=498-512
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gamemodel\baginfodata.lua:526: for index, item in pairs(this.storageInfos[this.curStoragePage]) do
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gamemodel\baginfodata.lua:529: local r21_5 = this.storageInfos[this.curStoragePage]
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gamemodel\baginfodata.lua:540: function r0_2.UpdateStorageItems(changeItems) -- proto#22 params=1 locals=5 upvalues=2 vararg=false source=@Assets/Src/Lua/GameModel/BagInfoData.lua lines=514-532
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gamemodel\baginfodata.lua:542: local r22_2 = this.storageInfos[this.curStoragePage]
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gamemodel\baginfodata.lua:546: this.SaveAndConfigInfo(this.storageInfos[this.curStoragePage], changeItem)
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gamemodel\baginfodata.lua:561: function r0_2.GetStorageItemCountByItemId(configId) -- proto#23 params=1 locals=3 upvalues=2 vararg=false source=@Assets/Src/Lua/GameModel/BagInfoData.lua lines=534-544
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gamemodel\baginfodata.lua:563: for _, item in pairs(this.storageInfos) do
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gamemodel\equipdata.lua:35: self.equipStorageRegenerateAttr = r1_0
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gamemodel\equipdata.lua:107: r2_1 = equip.equipStorageRegenerateAttr
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gamemodel\equipdata.lua:109: self.equipStorageRegenerateAttr = r2_1
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gamemodel\honorequipdata.lua:19: self.excStorageDesc = r1_0
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gamemodel\honorequipdata.lua:21: self.excStorageLog = r1_0
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gamemodel\honorequipdata.lua:80: local function excStorageDescibuteSet(self, attribute) -- proto#3 params=2 locals=6 upvalues=1 vararg=false source=@Assets/Src/Lua/GameModel/HonorEquipData.lua lines=60-74
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gamemodel\honorequipdata.lua:85: self.excStorageDesc = r3_0
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gamemodel\honorequipdata.lua:87: self.excStorageLog = r3_0
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gamemodel\honorequipdata.lua:96: r3_5 = self.excStorageDesc
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gamemodel\honorequipdata.lua:100: r3_5(self.excStorageLog, randomAttrTab.id)
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gamemodel\honorequipdata.lua:107: excStorageDescibuteSet(self, data.equipStorageAttr)
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gamemodel\honorequipdata.lua:514: excTbl = self.excStorageLog
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gamemodel\honorequipdata.lua:515: attrTbl = self.excStorageDesc
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gamemodel\playercontrolforcedata.lua:11: PlayerControlForceData.storageOpenCondition = {}
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gamemodel\playercontrolforcedata.lua:12: PlayerControlForceData.storageJumpParam = {}
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gamemodel\playercontrolforcedata.lua:13: PlayerControlForceData.storageVipOpenParam = {}
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gamemodel\playercontrolforcedata.lua:77: this.storageOpenCondition = ParseUtility.ParseId(GlobalConfig.storageCondition)
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gamemodel\playercontrolforcedata.lua:78: this.storageJumpParam = ParseUtility.ParseId(GlobalConfig.storageJump)
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gamemodel\playercontrolforcedata.lua:79: this.storageVipOpenParam = ParseUtility.CuttingParam(GlobalConfig.storageVipOpen)
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gamemodel\playercontrolforcedata.lua:157: if table.count(PlayerControlForceData.storageOpenCondition) > 0 then
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gamemodel\playercontrolforcedata.lua:158: for _, id in ipairs(PlayerControlForceData.storageOpenCondition) do
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gamemodel\playercontrolforcedata.lua:169: r0_18.StorageIsOpen = r0_2
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gamemodel\storehousedata.lua:8: StoreHouseData.storageInfoTbl = {}
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gamemodel\tipdata.lua:56: r0_23.StorageInfo = r0_22
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gamemodel\tipdata.lua:60: local r1_0 = this.StorageInfo
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gamemodel\tipdata.lua:63: r1_0 = this.StorageInfo
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gamemodel\tipdata.lua:66: r1_0 = this.StorageInfo
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gamemodel\tipdata.lua:69: r1_0 = this.StorageInfo
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gamemodel\tipdata.lua:72: r1_0 = this.StorageInfo
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gamemodel\tipdata.lua:82: this.StorageInfo[1] = {}
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gamemodel\tipdata.lua:84: local r2_0 = this.StorageInfo
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gamemodel\tipdata.lua:87: r2_0 = this.StorageInfo
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gamemodel\tipdata.lua:90: r2_0 = this.StorageInfo
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gamemodel\tipdata.lua:99: this.StorageInfo[type] = {}
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gamemodel\tipdata.lua:107: this.StorageInfo[type] = data
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gamemodel\tipdata.lua:109: table.insert(this.StorageInfo[type], data)
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gamemodel\tipdata.lua:117: this.StorageInfo[type] = data
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gamemodel\tipdata.lua:124: table.insert(this.StorageInfo[type], data)
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gamemodel\tipdata.lua:132: this.StorageInfo[type] = data
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gamemodel\tipdata.lua:142: if table.count(this.StorageInfo[index]) > 0 then
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gamemodel\tipdata.lua:143: UIManager.Show(this.ShowSortUIName[index], { ItemInfo = this.StorageInfo[index] })
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gamemodel\tipdata.lua:144: this.StorageInfo[index] = {}
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gamemodel\tipdata.lua:493: for i = 1, #this.StorageInfo do
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gamemodel\tipdata.lua:494: local info = this.StorageInfo[i]
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gamemodel\tipdata.lua:501: table.remove(this.StorageInfo[i], k)
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gamemodel\tipdata.lua:517: for i = 1, #this.StorageInfo do
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gamemodel\tipdata.lua:518: local info = this.StorageInfo[i]
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gamemodel\tipdata.lua:528: table.remove(this.StorageInfo[i], k)
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gamemodel\tipdata.lua:550: and msg.logType ~= BagChangeTypeEnum.Warehouse
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameplay\condition\itemcondition.lua:185: for i5, v5 in pairs(BagInfoData.storageInfos) do
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameplay\condition\itemcondition.lua:308: for _2, item2 in pairs(BagInfoData.storageInfos) do
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameplay\logs\actionlog\commercializelogmanager.lua:21: r0_1.Depot_Gold = enum()
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\bag_3dbaginfoui.lua:29: self.btn_Storage = self:GetControl("BagGroup/btn_Storage")
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\bag_3dbaginfoui.lua:559: self.btn_Storage:SetOnClick(self, self.Button_StorageOnClick)
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\bag_3dbaginfoui.lua:752: self.btn_Storage:SetActive(false)
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\bag_3dbaginfoui.lua:759: self.btn_Storage:SetActive(true)
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\bag_3dbaginfoui.lua:813: parent = tipUi.Button_OK, msgStr = LocalizationUtility.GetUIWord("WarehouseTips_2")
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\bag_3dbaginfoui.lua:857: function Bag_3DBagInfoUI.Button_StorageOnClick(self, control) -- proto#47 params=2 locals=1 upvalues=1 vararg=false source=@Assets/Src/Lua/GameUI/Bag_3DBagInfoUI.lua lines=791-806
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\bag_3dbaginfoui.lua:866: local openDir = PlayerControlForceData.StorageIsOpen()
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\bag_3dbaginfoui.lua:871: TipUtility.ShowStorageOpenPrompt()
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\bag_3dbaginfoui.lua:939: id = itemData.id, bagGridIndex = index, index = BagInfoData.curStoragePage
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\bag_3dbaginfoui.lua:977: id = itemData.id, bagGridIndex = -1, index = BagInfoData.curStoragePage
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\bag_warehouseinfoui.lua:1: ﻿-- file: @Assets/Src/Lua/GameUI/Bag_WarehouseInfoUI.lua
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\bag_warehouseinfoui.lua:6: Bag_WarehouseInfoUI = class(BaseUI)
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\bag_warehouseinfoui.lua:7: Bag_WarehouseInfoUI.layer = UILayer.Panel
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\bag_warehouseinfoui.lua:8: Bag_WarehouseInfoUI.orderInLayer = 5
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\bag_warehouseinfoui.lua:9: Bag_WarehouseInfoUI.hideType = UIHideType.Hide
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\bag_warehouseinfoui.lua:10: Bag_WarehouseInfoUI.hideFunc = UIHideFunc.MoveOutOfScreen
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\bag_warehouseinfoui.lua:11: Bag_WarehouseInfoUI.escClose = UIEscClose.DontClose
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\bag_warehouseinfoui.lua:13: function Bag_WarehouseInfoUI:InitControls() -- proto#1 params=1 locals=2 upvalues=0 vararg=false source=@Assets/Src/Lua/GameUI/Bag_WarehouseInfoUI.lua lines=10-70
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\bag_warehouseinfoui.lua:26: self.btn_leftWarehouse = self:GetControl("img_Bg/Scroll_BagInfos/go_other/btn_leftWarehouse")
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\bag_warehouseinfoui.lua:27: self.btn_rightWarehouse = self:GetControl("img_Bg/Scroll_BagInfos/go_other/btn_rightWarehouse")
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\bag_warehouseinfoui.lua:30: self.lab_WarehouseName = self:GetControl("img_Bg/ChangeName/lab_WarehouseName")
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\bag_warehouseinfoui.lua:54: self.Tip_unlockWarehouse = self:GetControl("Tip_unlockWarehouse")
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\bag_warehouseinfoui.lua:55: self.Bg_Close = self:GetControl("Tip_unlockWarehouse/Bg_Close")
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\bag_warehouseinfoui.lua:56: self.Panel_Tip = self:GetControl("Tip_unlockWarehouse/Panel_Tip")
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\bag_warehouseinfoui.lua:57: self.Image_TipBg = self:GetControl("Tip_unlockWarehouse/Panel_Tip/Image_TipBg")
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\bag_warehouseinfoui.lua:58: self.Button_OK = self:GetControl("Tip_unlockWarehouse/Panel_Tip/Image_TipBg/Button_OK")
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\bag_warehouseinfoui.lua:59: self.Text_OK = self:GetControl("Tip_unlockWarehouse/Panel_Tip/Image_TipBg/Button_OK/Text_OK")
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\bag_warehouseinfoui.lua:60: self.Button_Cancel = self:GetControl("Tip_unlockWarehouse/Panel_Tip/Image_TipBg/Button_Cancel")
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\bag_warehouseinfoui.lua:61: self.Text_Cancel = self:GetControl("Tip_unlockWarehouse/Panel_Tip/Image_TipBg/Button_Cancel/Text_Cancel")
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\bag_warehouseinfoui.lua:62: self.Text_TipContent = self:GetControl("Tip_unlockWarehouse/Panel_Tip/Image_TipBg/Text_TipContent")
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\bag_warehouseinfoui.lua:63: self.Text_TipTitle = self:GetControl("Tip_unlockWarehouse/Panel_Tip/Image_TipBg/Text_TipTitle")
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\bag_warehouseinfoui.lua:64: self.btn_close = self:GetControl("Tip_unlockWarehouse/Panel_Tip/Image_TipBg/btn_close")
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\bag_warehouseinfoui.lua:65: self.ItemShow = self:GetControl("Tip_unlockWarehouse/Panel_Tip/Image_TipBg/ItemShow")
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\bag_warehouseinfoui.lua:66: self.Text_TipItemContent = self:GetControl("Tip_unlockWarehouse/Panel_Tip/Image_TipBg/ItemShow/Text_TipItemContent")
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\bag_warehouseinfoui.lua:67: self.btn_Item = self:GetControl("Tip_unlockWarehouse/Panel_Tip/Image_TipBg/ItemShow/btn_Item")
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\bag_warehouseinfoui.lua:68: self.lab_count = self:GetControl("Tip_unlockWarehouse/Panel_Tip/Image_TipBg/ItemShow/btn_Item/lab_count")
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\bag_warehouseinfoui.lua:69: self.img_WareHouseTitil = self:GetControl("img_Bg/img_WareHouseTitil")
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\bag_warehouseinfoui.lua:74: function Bag_WarehouseInfoUI.OnPreLoad(self) -- proto#2 params=1 locals=0 upvalues=0 vararg=false source=@Assets/Src/Lua/GameUI/Bag_WarehouseInfoUI.lua lines=75-78
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\bag_warehouseinfoui.lua:79: function Bag_WarehouseInfoUI:Init() -- proto#3 params=1 locals=1 upvalues=0 vararg=false source=@Assets/Src/Lua/GameUI/Bag_WarehouseInfoUI.lua lines=81-84
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\bag_warehouseinfoui.lua:86: function Bag_WarehouseInfoUI:OnCreate() -- proto#4 params=1 locals=0 upvalues=0 vararg=false source=@Assets/Src/Lua/GameUI/Bag_WarehouseInfoUI.lua lines=87-93
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\bag_warehouseinfoui.lua:96: function Bag_WarehouseInfoUI:InitUI() -- proto#5 params=1 locals=6 upvalues=1 vararg=false source=@Assets/Src/Lua/GameUI/Bag_WarehouseInfoUI.lua lines=96-100
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\bag_warehouseinfoui.lua:98: curCellCount = GlobalConfig.storageInitCount, totalCellCount = GlobalConfig.storageMaxCount,
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\bag_warehouseinfoui.lua:103: function Bag_WarehouseInfoUI.OnShow(self) -- proto#6 params=1 locals=0 upvalues=0 vararg=false source=@Assets/Src/Lua/GameUI/Bag_WarehouseInfoUI.lua lines=103-108
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\bag_warehouseinfoui.lua:108: function Bag_WarehouseInfoUI.OnHide(self) -- proto#7 params=1 locals=0 upvalues=1 vararg=false source=@Assets/Src/Lua/GameUI/Bag_WarehouseInfoUI.lua lines=111-116
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\bag_warehouseinfoui.lua:115: function Bag_WarehouseInfoUI.OnDestroy(self) -- proto#8 params=1 locals=0 upvalues=0 vararg=false source=@Assets/Src/Lua/GameUI/Bag_WarehouseInfoUI.lua lines=119-122
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\bag_warehouseinfoui.lua:120: function Bag_WarehouseInfoUI:RegistUIEvents() -- proto#9 params=1 locals=1 upvalues=0 vararg=false source=@Assets/Src/Lua/GameUI/Bag_WarehouseInfoUI.lua lines=137-157
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\bag_warehouseinfoui.lua:127: self.btn_leftWarehouse:SetOnClick(self, self.btn_leftWarehouseOnClick)
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\bag_warehouseinfoui.lua:128: self.btn_rightWarehouse:SetOnClick(self, self.btn_rightWarehouseOnClick)
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\bag_warehouseinfoui.lua:140: local function PromptOK(okArgs) -- proto#10 params=1 locals=8 upvalues=1 vararg=false source=@Assets/Src/Lua/GameUI/Bag_WarehouseInfoUI.lua lines=159-179
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\bag_warehouseinfoui.lua:149: params = { tostring(BagInfoData.curStoragePage) }
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\bag_warehouseinfoui.lua:156: parent = tipUi.Button_OK, msgStr = LocalizationUtility.GetUIWord("WarehouseTips_2")
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\bag_warehouseinfoui.lua:161: function Bag_WarehouseInfoUI.OnClickLock(self, control) -- proto#11 params=2 locals=7 upvalues=2 vararg=false source=@Assets/Src/Lua/GameUI/Bag_WarehouseInfoUI.lua lines=181-195
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\bag_warehouseinfoui.lua:171: function Bag_WarehouseInfoUI.Btn_CloseBagOnClick(self, control) -- proto#12 params=2 locals=0 upvalues=1 vararg=false source=@Assets/Src/Lua/GameUI/Bag_WarehouseInfoUI.lua lines=197-200
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\bag_warehouseinfoui.lua:176: function Bag_WarehouseInfoUI.descBtnOnClick(self) -- proto#13 params=1 locals=5 upvalues=1 vararg=false source=@Assets/Src/Lua/GameUI/Bag_WarehouseInfoUI.lua lines=202-205
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\bag_warehouseinfoui.lua:181: function Bag_WarehouseInfoUI.Btn_SortOutOnClick(self, control) -- proto#14 params=2 locals=4 upvalues=1 vararg=false source=@Assets/Src/Lua/GameUI/Bag_WarehouseInfoUI.lua lines=207-209
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\bag_warehouseinfoui.lua:185: function Bag_WarehouseInfoUI.Button_ShowUseOperation(self, control, _, isDouble) -- proto#15 params=4 locals=11 upvalues=1 vararg=false source=@Assets/Src/Lua/GameUI/Bag_WarehouseInfoUI.lua lines=211-239
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\bag_warehouseinfoui.lua:196: id = itemData.id, bagGridIndex = -1, index = BagInfoData.curStoragePage
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\bag_warehouseinfoui.lua:206: function Bag_WarehouseInfoUI.PutIn(self, itemData, fromUiName, index) -- proto#16 params=4 locals=8 upvalues=1 vararg=false source=@Assets/Src/Lua/GameUI/Bag_WarehouseInfoUI.lua lines=241-247
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\bag_warehouseinfoui.lua:209: itemId = itemData.id, bagGridIndex = index, type = EDragUIType.WarehouseInfoUI,
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\bag_warehouseinfoui.lua:210: index = BagInfoData.curStoragePage
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\bag_warehouseinfoui.lua:214: id = itemData.id, bagGridIndex = index, index = BagInfoData.curStoragePage
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\bag_warehouseinfoui.lua:219: function Bag_WarehouseInfoUI.btn_leftWarehouseOnClick(self, control) -- proto#17 params=2 locals=0 upvalues=1 vararg=false source=@Assets/Src/Lua/GameUI/Bag_WarehouseInfoUI.lua lines=248-253
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\bag_warehouseinfoui.lua:220: if BagInfoData.curStoragePage > 1 then
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\bag_warehouseinfoui.lua:221: BagInfoData.curStoragePage = BagInfoData.curStoragePage - 1
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\bag_warehouseinfoui.lua:226: function Bag_WarehouseInfoUI.btn_rightWarehouseOnClick(self, control) -- proto#18 params=2 locals=11 upvalues=1 vararg=false source=@Assets/Src/Lua/GameUI/Bag_WarehouseInfoUI.lua lines=254-278
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\bag_warehouseinfoui.lua:227: if BagInfoData.curStoragePage < BagInfoData.maxStoragePage then
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\bag_warehouseinfoui.lua:228: if BagInfoData.storageInfos[BagInfoData.curStoragePage + 1] then
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\bag_warehouseinfoui.lua:229: BagInfoData.curStoragePage = BagInfoData.curStoragePage + 1
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\bag_warehouseinfoui.lua:232: self.Tip_unlockWarehouse:SetActive(true)
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\bag_warehouseinfoui.lua:254: function Bag_WarehouseInfoUI.btn_nameChangeOnClick(self, control) -- proto#19 params=2 locals=1 upvalues=1 vararg=false source=@Assets/Src/Lua/GameUI/Bag_WarehouseInfoUI.lua lines=279-283
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\bag_warehouseinfoui.lua:255: self.lab_name:SetText(string.format(LocalizationUtility.GetContentByKey("Karuiword_259"), BagInfoData.curStoragePage))
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\bag_warehouseinfoui.lua:260: function Bag_WarehouseInfoUI.btn_cancelOnClick(self, control) -- proto#20 params=2 locals=1 upvalues=0 vararg=false source=@Assets/Src/Lua/GameUI/Bag_WarehouseInfoUI.lua lines=284-286
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\bag_warehouseinfoui.lua:264: function Bag_WarehouseInfoUI.btn_okOnClick(self, control) -- proto#21 params=2 locals=6 upvalues=1 vararg=false source=@Assets/Src/Lua/GameUI/Bag_WarehouseInfoUI.lua lines=287-295
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\bag_warehouseinfoui.lua:276: r21_4 = r21_4.curStoragePage
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\bag_warehouseinfoui.lua:285: function Bag_WarehouseInfoUI.NameEditChange(self, _, value) -- proto#22 params=3 locals=4 upvalues=1 vararg=false source=@Assets/Src/Lua/GameUI/Bag_WarehouseInfoUI.lua lines=296-301
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\bag_warehouseinfoui.lua:296: function Bag_WarehouseInfoUI.TipLockCloseOnClick(self, control) -- proto#23 params=2 locals=1 upvalues=0 vararg=false source=@Assets/Src/Lua/GameUI/Bag_WarehouseInfoUI.lua lines=302-304
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\bag_warehouseinfoui.lua:297: self.Tip_unlockWarehouse:SetActive(false)
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\bag_warehouseinfoui.lua:300: function Bag_WarehouseInfoUI.Button_OKOnClick(self, control) -- proto#24 params=2 locals=7 upvalues=1 vararg=false source=@Assets/Src/Lua/GameUI/Bag_WarehouseInfoUI.lua lines=305-314
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\bag_warehouseinfoui.lua:303: name = LocalizationUtility.GetUIWord("WarehouseTips_5")
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\bag_warehouseinfoui.lua:305: self.Tip_unlockWarehouse:SetActive(false)
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\bag_warehouseinfoui.lua:313: function Bag_WarehouseInfoUI:RegistEvents() -- proto#25 params=1 locals=0 upvalues=1 vararg=false source=@Assets/Src/Lua/GameUI/Bag_WarehouseInfoUI.lua lines=317-324
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\bag_warehouseinfoui.lua:314: self:RegistEvent(Event.Bag_ResStorageUpdate, self.OnResStorageUpdate, self)
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\bag_warehouseinfoui.lua:315: self:RegistEvent(Event.Bag_ResStorageInfo, self.OnResStorageInfo, self)
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\bag_warehouseinfoui.lua:318: self:RegistEvent(Event.Bag_StorageChangeName, self.OnNameChange, self)
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\bag_warehouseinfoui.lua:336: BagInfoData.curStoragePage = msg.index
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\bag_warehouseinfoui.lua:338: local r27_0 = self.lab_WarehouseName
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\bag_warehouseinfoui.lua:341: local r27_2 = BagInfoData.storageName[BagInfoData.curStoragePage]
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\bag_warehouseinfoui.lua:345: local r27_3 = self[r27_0 .. r27_1.curStoragePage].toggle
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\bag_warehouseinfoui.lua:350: r27_2 = BagInfoData.storageCount
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\bag_warehouseinfoui.lua:351: local r27_4 = BagInfoData.curStoragePage
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\bag_warehouseinfoui.lua:358: local r27_5 = BagInfoData.storageInfos[BagInfoData.curStoragePage]
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\bag_warehouseinfoui.lua:359: r27_3(r27_1, r27_5 or {}, "OnResStorageUpdate")
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\bag_warehouseinfoui.lua:362: function Bag_WarehouseInfoUI:Refresh() -- proto#28 params=1 locals=1 upvalues=1 vararg=false source=@Assets/Src/Lua/GameUI/Bag_WarehouseInfoUI.lua lines=351-355
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\bag_warehouseinfoui.lua:363: BagInfoData.curStoragePage = 1
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\bag_warehouseinfoui.lua:368: function Bag_WarehouseInfoUI.ResItemInfoUpdateMessage(self, id, msg) -- proto#29 params=3 locals=1 upvalues=1 vararg=false source=@Assets/Src/Lua/GameUI/Bag_WarehouseInfoUI.lua lines=357-361
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\bag_warehouseinfoui.lua:369: if msg and msg.type == EDragUIType.WarehouseInfoUI then
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\bag_warehouseinfoui.lua:374: function Bag_WarehouseInfoUI.OnGridUpdate(self, _, msg) -- proto#30 params=3 locals=4 upvalues=1 vararg=false source=@Assets/Src/Lua/GameUI/Bag_WarehouseInfoUI.lua lines=363-367
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\bag_warehouseinfoui.lua:376: self.dragTbl:SetLock(BagInfoData.storageCount[msg.index])
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\bag_warehouseinfoui.lua:380: function Bag_WarehouseInfoUI:Set() -- proto#31 params=1 locals=6 upvalues=1 vararg=false source=@Assets/Src/Lua/GameUI/Bag_WarehouseInfoUI.lua lines=368-373
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\bag_warehouseinfoui.lua:381: local r31_0 = self.lab_WarehouseName
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\bag_warehouseinfoui.lua:384: local r31_2 = BagInfoData.storageName[BagInfoData.curStoragePage]
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\bag_warehouseinfoui.lua:388: local r31_3 = self[r31_0 .. r31_1.curStoragePage].toggle
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\bag_warehouseinfoui.lua:393: r31_2 = BagInfoData.storageCount
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\bag_warehouseinfoui.lua:394: local r31_4 = BagInfoData.curStoragePage
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\bag_warehouseinfoui.lua:401: local r31_5 = BagInfoData.storageInfos[BagInfoData.curStoragePage]
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\bag_warehouseinfoui.lua:402: r31_3(r31_1, r31_5 or {}, "Bag_WarehouseInfoUI:Refresh")
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\bag_warehouseinfoui.lua:405: function Bag_WarehouseInfoUI.OnNameChange(self) -- proto#32 params=1 locals=3 upvalues=1 vararg=false source=@Assets/Src/Lua/GameUI/Bag_WarehouseInfoUI.lua lines=374-376
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\equip_baptizeui.lua:112: if ui.excStorageDescTbl[data] then
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\equip_baptizeui.lua:113: ctr.lab_atk:SetText(ui.excStorageDescTbl[data])
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\equip_baptizeui.lua:294: if self.equipData.excStorageLog and table.count(self.equipData.excStorageLog) > 0 then
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\equip_baptizeui.lua:551: and table.count(self.equipData.excStorageLog) > 0)
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\equip_baptizeui.lua:567: self.btn_replace:SetActive(table.count(self.equipData.excStorageLog) > 0)
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\equip_baptizeui.lua:599: r41_3, r41_4 = r41_0(r41_1, self.equipData.excStorageLog)
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\equip_baptizeui.lua:601: self.excStorageDescTbl = r41_3
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\equip_baptizeui.lua:605: r41_2 = self.equipData.excStorageLog
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\equip_regenerateui.lua:291: if self.equipData.equipStorageRegenerateAttr
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\equip_regenerateui.lua:292: and table.count(self.equipData.equipStorageRegenerateAttr) > 0 then
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\equip_regenerateui.lua:531: for i = r36_1, r36_2(self.equipData.equipStorageRegenerateAttr) do
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\equip_regenerateui.lua:532: if self.equipData.equipStorageRegenerateAttr[i] > 0 then
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\equip_regenerateui.lua:533: table.insert(data, self.equipData.equipStorageRegenerateAttr[i])
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\equip_regenerateui.lua:589: and table.count(self.equipData.equipStorageRegenerateAttr) > 0)
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\equip_regenerateui.lua:607: self.btn_replace:SetActive(table.count(self.equipData.equipStorageRegenerateAttr) > 0)
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\item_chooseboxui.lua:327: and BagInfoData.GetStorageItemCountByItemId(data.itemId) <= 0 then
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\main_mainmenuui.lua:2905: if table.count(TipData.StorageInfo[TipShowSort.use]) ~= 0 then
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\main_mainmenuui.lua:2907: for i2, v in pairs(TipData.StorageInfo[TipShowSort.use]) do
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\main_mainmenuui.lua:2912: TipData.StorageInfo[TipShowSort.use] = ShowItemUse
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\main_mainmenuui.lua:2998: if table.count(TipData.StorageInfo[TipShowSort.auction]) ~= 0 then
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\main_mainmenuui.lua:3001: local r175_26 = TipData.StorageInfo
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\main_mainmenuui.lua:3035: if table.count(TipData.StorageInfo[TipShowSort.auction]) ~= 0 then
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\main_mainmenuui.lua:3037: for i4, v2 in pairs(TipData.StorageInfo[TipShowSort.auction]) do
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\main_mainmenuui.lua:4221: msgStr = LocalizationUtility.GetUIWord("WarehouseTips_2")
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\map_findui.lua:110: FloatingTipUtility.QuickMsg(LocalizationUtility.GetUIWord("WarehouseTips_2"))
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\masterskillextend.lua:979: FloatingWordUtility.QuickMsg(LocalizationUtility.GetUIWord("WarehouseTips_2"))
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\mount_mountstorage.lua:1: ﻿-- file: @Assets/Src/Lua/GameUI/Mount_MountStorage.lua
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\mount_mountstorage.lua:6: Mount_MountStorage = class(BaseUI)
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\mount_mountstorage.lua:7: Mount_MountStorage.layer = UILayer.Panel
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\mount_mountstorage.lua:8: Mount_MountStorage.orderInLayer = 2
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\mount_mountstorage.lua:9: Mount_MountStorage.hideType = UIHideType.WaitDestroy
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\mount_mountstorage.lua:10: Mount_MountStorage.hideFunc = UIHideFunc.MoveOutOfScreen
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\mount_mountstorage.lua:11: Mount_MountStorage.escClose = UIEscClose.DontClose
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\mount_mountstorage.lua:13: function Mount_MountStorage:InitControls() -- proto#1 params=1 locals=2 upvalues=0 vararg=false source=@Assets/Src/Lua/GameUI/Mount_MountStorage.lua lines=9-27
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\mount_mountstorage.lua:33: function Mount_MountStorage.OnPreLoad(self) -- proto#2 params=1 locals=0 upvalues=0 vararg=false source=@Assets/Src/Lua/GameUI/Mount_MountStorage.lua lines=32-33
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\mount_mountstorage.lua:49: function Mount_MountStorage.Init(self) -- proto#3 params=1 locals=0 upvalues=0 vararg=false source=@Assets/Src/Lua/GameUI/Mount_MountStorage.lua lines=52-53
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\mount_mountstorage.lua:53: function Mount_MountStorage.OnCreate(self) -- proto#4 params=1 locals=0 upvalues=0 vararg=false source=@Assets/Src/Lua/GameUI/Mount_MountStorage.lua lines=56-60
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\mount_mountstorage.lua:59: function Mount_MountStorage:InitUI() -- proto#5 params=1 locals=2 upvalues=1 vararg=false source=@Assets/Src/Lua/GameUI/Mount_MountStorage.lua lines=63-68
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\mount_mountstorage.lua:66: function Mount_MountStorage.ComputeAttriSize(self) -- proto#6 params=1 locals=7 upvalues=4 vararg=false source=@Assets/Src/Lua/GameUI/Mount_MountStorage.lua lines=70-77
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\mount_mountstorage.lua:82: local function IconOnCreate(ctr) -- proto#7 params=1 locals=7 upvalues=1 vararg=false source=@Assets/Src/Lua/GameUI/Mount_MountStorage.lua lines=79-89
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\mount_mountstorage.lua:94: local function IconRefresh(ctr, _, itemData, ui) -- proto#8 params=4 locals=14 upvalues=2 vararg=false source=@Assets/Src/Lua/GameUI/Mount_MountStorage.lua lines=91-134
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\mount_mountstorage.lua:152: function Mount_MountStorage.SetFrame(self, control, quality) -- proto#9 params=3 locals=0 upvalues=1 vararg=false source=@Assets/Src/Lua/GameUI/Mount_MountStorage.lua lines=136-150
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\mount_mountstorage.lua:168: function Mount_MountStorage.InitIconContainer(self) -- proto#10 params=1 locals=1 upvalues=3 vararg=false source=@Assets/Src/Lua/GameUI/Mount_MountStorage.lua lines=152-154
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\mount_mountstorage.lua:172: function Mount_MountStorage.OnShow(self) -- proto#11 params=1 locals=0 upvalues=0 vararg=false source=@Assets/Src/Lua/GameUI/Mount_MountStorage.lua lines=157-160
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\mount_mountstorage.lua:177: function Mount_MountStorage.OnHide(self) -- proto#12 params=1 locals=1 upvalues=2 vararg=false source=@Assets/Src/Lua/GameUI/Mount_MountStorage.lua lines=163-170
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\mount_mountstorage.lua:186: function Mount_MountStorage.OnDestroy(self) -- proto#13 params=1 locals=0 upvalues=1 vararg=false source=@Assets/Src/Lua/GameUI/Mount_MountStorage.lua lines=173-176
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\mount_mountstorage.lua:191: function Mount_MountStorage:RegistUIEvents() -- proto#14 params=1 locals=1 upvalues=0 vararg=false source=@Assets/Src/Lua/GameUI/Mount_MountStorage.lua lines=191-196
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\mount_mountstorage.lua:198: function Mount_MountStorage.btn_MountRefresh(self, control) -- proto#15 params=2 locals=2 upvalues=1 vararg=false source=@Assets/Src/Lua/GameUI/Mount_MountStorage.lua lines=198-206
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\mount_mountstorage.lua:210: function Mount_MountStorage.btn_closeOnClick(self, control) -- proto#16 params=2 locals=0 upvalues=0 vararg=false source=@Assets/Src/Lua/GameUI/Mount_MountStorage.lua lines=208-209
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\mount_mountstorage.lua:214: function Mount_MountStorage.ItemClick(self, control) -- proto#17 params=2 locals=6 upvalues=3 vararg=false source=@Assets/Src/Lua/GameUI/Mount_MountStorage.lua lines=211-231
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\mount_mountstorage.lua:234: function Mount_MountStorage.Img_openOnClick(self, control) -- proto#18 params=2 locals=4 upvalues=2 vararg=false source=@Assets/Src/Lua/GameUI/Mount_MountStorage.lua lines=233-242
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\mount_mountstorage.lua:245: function Mount_MountStorage.OnMountItemClick(self, control) -- proto#19 params=2 locals=0 upvalues=3 vararg=false source=@Assets/Src/Lua/GameUI/Mount_MountStorage.lua lines=244-256
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\mount_mountstorage.lua:259: function Mount_MountStorage:RegistEvents() -- proto#20 params=1 locals=0 upvalues=1 vararg=false source=@Assets/Src/Lua/GameUI/Mount_MountStorage.lua lines=259-261
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\mount_mountstorage.lua:263: function Mount_MountStorage.MountChangeFunc(self, id, msg) -- proto#21 params=3 locals=1 upvalues=2 vararg=false source=@Assets/Src/Lua/GameUI/Mount_MountStorage.lua lines=263-276
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\mount_mountstorage.lua:276: function Mount_MountStorage.RefreshToggle(self, msg) -- proto#22 params=2 locals=8 upvalues=3 vararg=false source=@Assets/Src/Lua/GameUI/Mount_MountStorage.lua lines=279-302
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\mount_mountstorage.lua:301: function Mount_MountStorage.RefreshMountRed(self) -- proto#23 params=1 locals=12 upvalues=2 vararg=false source=@Assets/Src/Lua/GameUI/Mount_MountStorage.lua lines=304-324
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\mount_mountstorage.lua:323: local function sort(a, b) -- proto#24 params=2 locals=2 upvalues=0 vararg=false source=@Assets/Src/Lua/GameUI/Mount_MountStorage.lua lines=326-331
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\mount_mountstorage.lua:330: function Mount_MountStorage.InitUIShowList(self, msg) -- proto#25 params=2 locals=29 upvalues=8 vararg=false source=@Assets/Src/Lua/GameUI/Mount_MountStorage.lua lines=333-410
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\mount_mountstorage.lua:410: local function AttOnCreate(ctr) -- proto#26 params=1 locals=1 upvalues=1 vararg=false source=@Assets/Src/Lua/GameUI/Mount_MountStorage.lua lines=412-414
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\mount_mountstorage.lua:414: local function AttRefresh(ctr, _, itemData, ui) -- proto#27 params=4 locals=1 upvalues=0 vararg=false source=@Assets/Src/Lua/GameUI/Mount_MountStorage.lua lines=416-419
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\mount_mountstorage.lua:419: function Mount_MountStorage.AllAttributeData(self) -- proto#28 params=1 locals=7 upvalues=2 vararg=false source=@Assets/Src/Lua/GameUI/Mount_MountStorage.lua lines=421-435
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\mount_mountstorage.lua:435: function Mount_MountStorage.RefreshAttribute(self) -- proto#29 params=1 locals=12 upvalues=8 vararg=false source=@Assets/Src/Lua/GameUI/Mount_MountStorage.lua lines=437-455
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\mount_mountstorage.lua:461: function Mount_MountStorage:Refresh() -- proto#30 params=1 locals=1 upvalues=1 vararg=false source=@Assets/Src/Lua/GameUI/Mount_MountStorage.lua lines=457-460
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\send_flowerui.lua:83: parent = self.btn_ok, msgStr = LocalizationUtility.GetUIWord("WarehouseTips_2")
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\task_taskui.lua:460: local temporaryStorageTask = {}
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\task_taskui.lua:472: temporaryStorageTask = {}
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\task_taskui.lua:473: temporaryStorageTask = TaskData.GetCounterpartTask()
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\task_taskui.lua:474: local r25_5 = temporaryStorageTask
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\task_taskui.lua:475: if r25_5 ~= nil and #temporaryStorageTask > 0 then
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\task_taskui.lua:476: local r25_6, r25_7, r25_8 = pairs(temporaryStorageTask)
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\task_taskui.lua:482: temporaryStorageTask = r25_11
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\task_taskui.lua:486: temporaryStorageTask = r25_11
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\task_taskui.lua:487: r25_11 = temporaryStorageTask
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\task_taskui.lua:489: table.insert(allTask, temporaryStorageTask)
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\task_taskui.lua:493: local r25_12, r25_13, r25_14 = r25_11(temporaryStorageTask)
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\task_taskui.lua:551: temporaryStorageTask = {}
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\task_taskui.lua:563: table.insert(temporaryStorageTask, v)
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\task_taskui.lua:567: table.insert(temporaryStorageTask, v)
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\task_taskui.lua:574: temporaryStorageTask = {}
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\task_taskui.lua:578: table.insert(temporaryStorageTask, task)
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\task_taskui.lua:599: table.insert(temporaryStorageTask, levelTaskList[1])
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\task_taskui.lua:603: table.insert(temporaryStorageTask, completedTask)
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\tip_itemtiptwoui.lua:1471: id = control.tips.ItemInfo.id, bagGridIndex = -1, index = BagInfoData.curStoragePage
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\tip_itemtiptwoui.lua:1478: id = control.tips.ItemInfo.id, bagGridIndex = -1, index = BagInfoData.curStoragePage
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\zhuanzhi_equipui.lua:551: cData.equipStorageRegenerateAttr = data.equipStorageRegenerateAttr
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\luacore\event\event.lua:73: r0_0.Bag_ResStorageInfo = enum()
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\luacore\event\event.lua:74: r0_0.Bag_ResStorageUpdate = enum()
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\luacore\event\event.lua:91: r0_0.Bag_StorageChangeName = enum()
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\luacore\net\message\bag.lua:12: ResStorageGridExtend = 203018, ReqDestroyItem = 203019, ReqUseCDKey = 203020,
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\luacore\net\message\bag.lua:22: MessageIDToName[203006] = "BagPackage.ResStorageInfo"
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\luacore\net\message\bag.lua:23: MessageIDToName[203007] = "BagPackage.PutIntoStorage"
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\luacore\net\message\bag.lua:24: MessageIDToName[203008] = "BagPackage.TakeOutFromStorage"
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\luacore\net\message\bag.lua:25: MessageIDToName[203009] = "BagPackage.ResStorageUpdate"
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\luacore\net\message\bag.lua:33: MessageIDToName[203018] = "BagPackage.ResStorageGridExtend"
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\luacore\net\message\bag.lua:36: MessageIDToName[203021] = "BagPackage.ResAllStorageInfo"
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\luacore\ui\uiid.lua:22: AppearBagLookUI = "Bag_AppearBagLookUI", BagWarehouseUI = "Bag_WarehouseInfoUI",
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\utility\itemutility.lua:1495: if table.count(BagInfoData.storageInfos) == BagInfoData.maxStoragePage then
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\utility\itemutility.lua:1502: name = LocalizationUtility.GetUIWord("WarehouseTips_5")
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\utility\itemutility.lua:1507: if BagInfoData.storageCount[BagInfoData.curStoragePage] == GlobalConfig.storageMaxCount then
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\utility\itemutility.lua:1513: local openDir = PlayerControlForceData.StorageIsOpen()
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\utility\mountutility.lua:640: and BagInfoData.GetStorageItemCountByItemId(itemId) <= 0 then
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\utility\mountutility.lua:676: function MountUtility.AllAttributeDataCalculate(AttributeData, isStorage) -- proto#16 params=2 locals=85 upvalues=2 vararg=false source=@Assets/Src/Lua/Utility/MountUtility.lua lines=607-721
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\utility\mountutility.lua:741: if not isStorage and curItemInfo.moveSpeed_mul ~= 0 then
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\utility\mountutility.lua:824: if isStorage then
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\utility\tiputility.lua:98: function TipUtility.OpenStorageCancel() -- proto#11 params=0 locals=5 upvalues=1 vararg=false source=@Assets/Src/Lua/Utility/TipUtility.lua lines=94-98
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\utility\tiputility.lua:100: PathFinderManager.FlyTransferScene(PlayerControlForceData.storageJumpParam[1], nil, {
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\utility\tiputility.lua:101: npcId = PlayerControlForceData.storageJumpParam[2]
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\utility\tiputility.lua:105: function TipUtility.OpenStorageOk() -- proto#12 params=0 locals=6 upvalues=2 vararg=false source=@Assets/Src/Lua/Utility/TipUtility.lua lines=100-105
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\utility\tiputility.lua:110: local r12_2 = PlayerControlForceData.storageVipOpenParam[1]
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\utility\tiputility.lua:113: local r12_4 = tonumber(PlayerControlForceData.storageVipOpenParam[2])
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\utility\tiputility.lua:116: r12_3.buyid = tonumber(PlayerControlForceData.storageVipOpenParam[3])
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\utility\tiputility.lua:118: r12_5 = r12_5.Depot_Gold
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\utility\tiputility.lua:122: function TipUtility.ShowStorageOpenPrompt() -- proto#13 params=0 locals=10 upvalues=2 vararg=false source=@Assets/Src/Lua/Utility/TipUtility.lua lines=107-118
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\utility\tiputility.lua:123: local contentKey = ItemUtility.IsJumpRecharge() and "WarehouseNoVip_mini"
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\utility\tiputility.lua:124: or "WarehouseNoVip_mini2"
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\config\globalconfig.lua:59: GlobalConfig.storageCondition = this.GetGlobalConfig(2140005)
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\config\globalconfig.lua:60: GlobalConfig.storageJump = this.GetGlobalConfig(2140006)
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\config\globalconfig.lua:61: GlobalConfig.storageVipOpen = this.GetGlobalConfig(2140010)
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\config\globalconfig.lua:72: GlobalConfig.storageInitCount = tonumber(this.GetGlobalConfig(2080001))
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\config\globalconfig.lua:73: GlobalConfig.storageMaxCount = tonumber(this.GetGlobalConfig(2080002))
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameconst\itemenum.lua:17: EDragUIType = { Bag = enum(1), WarehouseInfoUI = enum(2) }
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameconst\itemenum.lua:193: r0_2 = "Warehouse"
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gamecontroller\baginfocontroller.lua:31: this.messageContainer:Regist(BagMessage.ResAllStorageInfo, this.ResAllStorageInfo)
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gamecontroller\baginfocontroller.lua:32: this.messageContainer:Regist(BagMessage.ResStorageInfo, this.OnResStorageInfo)
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gamecontroller\baginfocontroller.lua:33: this.messageContainer:Regist(BagMessage.ResStorageUpdate, this.OnResStorageUpdate)
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gamecontroller\baginfocontroller.lua:34: this.messageContainer:Regist(BagMessage.ResStorageGridExtend, this.OnResStorageGridExtend)
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gamecontroller\baginfocontroller.lua:551: function BagInfoController.ResAllStorageInfo(_, msg) -- proto#25 params=2 locals=6 upvalues=1 vararg=false source=@Assets/Src/Lua/GameController/BagInfoController.lua lines=612-631
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gamecontroller\baginfocontroller.lua:553: BagInfoData.StorageReSet()
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gamecontroller\baginfocontroller.lua:555: if not BagInfoData.storageInfos[i] then
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gamecontroller\baginfocontroller.lua:556: BagInfoData.storageInfos[i] = {}
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gamecontroller\baginfocontroller.lua:559: BagInfoData.SaveAndConfigInfo(BagInfoData.storageInfos[i], item)
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gamecontroller\baginfocontroller.lua:561: BagInfoData.storageCount[i] = v.gridCount
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gamecontroller\baginfocontroller.lua:566: BagInfoData.storageName[i] = tempName
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gamecontroller\baginfocontroller.lua:569: EventManager.Dispatch(Event.Bag_ResStorageInfo)
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gamecontroller\baginfocontroller.lua:572: function BagInfoController.OnResStorageInfo(_, msg) -- proto#26 params=2 locals=11 upvalues=1 vararg=false source=@Assets/Src/Lua/GameController/BagInfoController.lua lines=633-658
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gamecontroller\baginfocontroller.lua:574: if not BagInfoData.storageInfos[msg.index] then
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gamecontroller\baginfocontroller.lua:575: BagInfoData.storageInfos[msg.index] = {}
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gamecontroller\baginfocontroller.lua:577: for k, _2 in pairs(BagInfoData.storageInfos[msg.index]) do
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gamecontroller\baginfocontroller.lua:578: local r26_2 = BagInfoData.storageInfos[msg.index]
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gamecontroller\baginfocontroller.lua:581: local r26_3 = BagInfoData.storageInfos
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gamecontroller\baginfocontroller.lua:585: r26_3 = BagInfoData.storageCount
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gamecontroller\baginfocontroller.lua:598: r26_7 = r26_7.storageName
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gamecontroller\baginfocontroller.lua:602: BagInfoData.SaveAndConfigInfo(BagInfoData.storageInfos[msg.index], item)
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gamecontroller\baginfocontroller.lua:605: EventManager.Dispatch(Event.Bag_ResStorageInfo, msg)
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gamecontroller\baginfocontroller.lua:608: function BagInfoController.OnResStorageUpdate(_, msg) -- proto#27 params=2 locals=5 upvalues=1 vararg=false source=@Assets/Src/Lua/GameController/BagInfoController.lua lines=660-664
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gamecontroller\baginfocontroller.lua:609: local removeItems = BagInfoData.RemoveStorageItem(msg.removeItem, msg.index)
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gamecontroller\baginfocontroller.lua:610: BagInfoData.UpdateStorageItems(msg.item)
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gamecontroller\baginfocontroller.lua:611: EventManager.Dispatch(Event.Bag_ResStorageUpdate, {
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gamecontroller\baginfocontroller.lua:622: elseif msg.type == EDragUIType.WarehouseInfoUI then
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gamecontroller\baginfocontroller.lua:623: BagInfoData.MoveItem(BagInfoData.storageInfos[BagInfoData.curStoragePage], moveItems)
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gamecontroller\baginfocontroller.lua:630: function BagInfoController.OnResStorageGridExtend(_, msg) -- proto#29 params=2 locals=4 upvalues=1 vararg=false source=@Assets/Src/Lua/GameController/BagInfoController.lua lines=681-697
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gamecontroller\baginfocontroller.lua:632: msg.type = msg.type == EDragUIType.Bag and EDragUIType.Bag or EDragUIType.WarehouseInfoUI
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gamecontroller\baginfocontroller.lua:641: BagInfoData.storageCount[msg.index] = msg.gridCount
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gamecontroller\logincontroller.lua:141: BagInfoData.StorageReSet()
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gamecontroller\storehousecontroller.lua:16: this.messageContainer:Regist(BagMessage.ResStorageInfo, StoreHouseController.OnResStorageInfo)
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gamecontroller\storehousecontroller.lua:17: this.messageContainer:Regist(BagMessage.ResStorageUpdate, StoreHouseController.OnResStorageUpdate)
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gamecontroller\storehousecontroller.lua:20: function StoreHouseController.OnResStorageInfo(_, data) -- proto#3 params=2 locals=1 upvalues=1 vararg=false source=@Assets/Src/Lua/GameController/StoreHouseController.lua lines=17-20
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gamecontroller\storehousecontroller.lua:22: StoreHouseData.storageInfoTbl = data.items
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gamecontroller\storehousecontroller.lua:25: function StoreHouseController.OnResStorageUpdate(_, data) -- proto#4 params=2 locals=0 upvalues=0 vararg=false source=@Assets/Src/Lua/GameController/StoreHouseController.lua lines=23-25
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gamemodel\baginfodata.lua:54: r0_12.storageInfos = r0_2
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gamemodel\baginfodata.lua:57: r0_13.curStorageCount = r0_2
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gamemodel\baginfodata.lua:60: r0_14.storageCount = r0_2
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gamemodel\baginfodata.lua:61: BagInfoData.curStoragePage = 1
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gamemodel\baginfodata.lua:66: r0_15.maxStoragePage = r0_2
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gamemodel\baginfodata.lua:69: r0_16.storageName = r0_2
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gamemodel\baginfodata.lua:318: function r0_2.StorageReSet() -- proto#10 params=0 locals=3 upvalues=2 vararg=false source=@Assets/Src/Lua/GameModel/BagInfoData.lua lines=304-311
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gamemodel\baginfodata.lua:319: for k, _ in pairs(this.storageInfos) do
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gamemodel\baginfodata.lua:320: this.storageInfos[k] = nil
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gamemodel\baginfodata.lua:323: this.storageInfos = r10_2
+[4] C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gamemodel\baginfodata.lua:325: this.curStorageCount = r10_2
+
+--- MO NEO BagSell (file nao dinh nghia UIID/Message thi kho cung o do) ---
+C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\khanh_logic.lua:654: if not PlayerControlForceData.BagSellIsOpen() then
+C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\khanh_logic.lua:664: return BagInfoData.IsCanShowInBag(UIID.BagSellInfoUI, it)
+C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gamemodel\baginfodata.lua:962: elseif uiid == UIID.BagSellInfoUI then
+C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gamemodel\baginfodata.lua:1160: if this.IsCanShowInBag(UIID.BagSellInfoUI, itemData) then
+C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gamemodel\playercontrolforcedata.lua:120: r0_15.BagSellIsOpen = r0_2
+C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameplay\guide\guidemanager.lua:1014: local openDir = PlayerControlForceData.BagSellIsOpen()
+C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameplay\guide\guidemanager.lua:1016: UIManager.Show(UIID.BagSellInfoUI)
+C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\bag_3dbaginfoui.lua:197: if UIManager.IsVisibleOrCorrelation(UIID.BagSellInfoUI, self) then
+C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\bag_3dbaginfoui.lua:198: self.curPanelType = UIID.BagSellInfoUI
+C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\bag_3dbaginfoui.lua:449: if BagInfoData.bagFull and not UIManager.IsVisibleOrCorrelation(UIID.BagSellInfoUI, self) then
+C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\bag_3dbaginfoui.lua:846: if not UIManager.IsVisibleOrCorrelation(UIID.BagSellInfoUI, self) then
+C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\bag_3dbaginfoui.lua:891: self:OpenBagSellInfoUI()
+C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\bag_3dbaginfoui.lua:894: function Bag_3DBagInfoUI:OpenBagSellInfoUI() -- proto#50 params=1 locals=2 upvalues=1 vararg=false source=@Assets/Src/Lua/GameUI/Bag_3DBagInfoUI.lua lines=823-842
+C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\bag_3dbaginfoui.lua:899: if not UIManager.IsVisibleOrCorrelation(UIID.BagSellInfoUI, self) then
+C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\bag_3dbaginfoui.lua:903: local openDir = PlayerControlForceData.BagSellIsOpen()
+C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\bag_3dbaginfoui.lua:906: UIManager.Show(UIID.BagSellInfoUI)
+C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\bag_3dbaginfoui.lua:1042: elseif UIManager.IsVisibleOrCorrelation(UIID.BagSellInfoUI, self) then
+C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\bag_3dbaginfoui.lua:1704: elseif self.curPanelType == UIID.BagSellInfoUI then
+C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\bag_sellinfoui.lua:166: UIManager.Hide(UIID.BagSellInfoUI)
+C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\main_mainmenuui.lua:3583: local openDir = PlayerControlForceData.BagSellIsOpen()
+C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\main_mainmenuui.lua:3585: UIManager.Show(UIID.BagSellInfoUI)
+C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\tip_itemtiptwoui.lua:2971: Bag_3DBagInfoUI:OpenBagSellInfoUI()
+C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\luacore\ui\uiid.lua:23: BagSellInfoUI = "Bag_SellInfoUI", BagShopInfoUI = "Bag_ShopInfoUI", Shop = "Shop_ShopUI",
+C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\khanh_logic.lua:654: if not PlayerControlForceData.BagSellIsOpen() then
+C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\khanh_logic.lua:664: return BagInfoData.IsCanShowInBag(UIID.BagSellInfoUI, it)
+C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gamemodel\baginfodata.lua:962: elseif uiid == UIID.BagSellInfoUI then
+C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gamemodel\baginfodata.lua:1160: if this.IsCanShowInBag(UIID.BagSellInfoUI, itemData) then
+C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gamemodel\playercontrolforcedata.lua:120: r0_15.BagSellIsOpen = r0_2
+C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameplay\guide\guidemanager.lua:1014: local openDir = PlayerControlForceData.BagSellIsOpen()
+C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameplay\guide\guidemanager.lua:1016: UIManager.Show(UIID.BagSellInfoUI)
+C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\bag_3dbaginfoui.lua:197: if UIManager.IsVisibleOrCorrelation(UIID.BagSellInfoUI, self) then
+C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\bag_3dbaginfoui.lua:198: self.curPanelType = UIID.BagSellInfoUI
+C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\bag_3dbaginfoui.lua:449: if BagInfoData.bagFull and not UIManager.IsVisibleOrCorrelation(UIID.BagSellInfoUI, self) then
+C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\bag_3dbaginfoui.lua:846: if not UIManager.IsVisibleOrCorrelation(UIID.BagSellInfoUI, self) then
+C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\bag_3dbaginfoui.lua:891: self:OpenBagSellInfoUI()
+C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\bag_3dbaginfoui.lua:894: function Bag_3DBagInfoUI:OpenBagSellInfoUI() -- proto#50 params=1 locals=2 upvalues=1 vararg=false source=@Assets/Src/Lua/GameUI/Bag_3DBagInfoUI.lua lines=823-842
+C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\bag_3dbaginfoui.lua:899: if not UIManager.IsVisibleOrCorrelation(UIID.BagSellInfoUI, self) then
+C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\bag_3dbaginfoui.lua:903: local openDir = PlayerControlForceData.BagSellIsOpen()
+C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\bag_3dbaginfoui.lua:906: UIManager.Show(UIID.BagSellInfoUI)
+C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\bag_3dbaginfoui.lua:1042: elseif UIManager.IsVisibleOrCorrelation(UIID.BagSellInfoUI, self) then
+C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\bag_3dbaginfoui.lua:1704: elseif self.curPanelType == UIID.BagSellInfoUI then
+C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\bag_sellinfoui.lua:166: UIManager.Hide(UIID.BagSellInfoUI)
+C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\main_mainmenuui.lua:3583: local openDir = PlayerControlForceData.BagSellIsOpen()
+C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\main_mainmenuui.lua:3585: UIManager.Show(UIID.BagSellInfoUI)
+C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\tip_itemtiptwoui.lua:2971: Bag_3DBagInfoUI:OpenBagSellInfoUI()
+C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\luacore\ui\uiid.lua:23: BagSellInfoUI = "Bag_SellInfoUI", BagShopInfoUI = "Bag_ShopInfoUI", Shop = "Shop_ShopUI",
+C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\khanh_logic.lua:654: if not PlayerControlForceData.BagSellIsOpen() then
+C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\khanh_logic.lua:664: return BagInfoData.IsCanShowInBag(UIID.BagSellInfoUI, it)
+C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gamemodel\baginfodata.lua:962: elseif uiid == UIID.BagSellInfoUI then
+C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gamemodel\baginfodata.lua:1160: if this.IsCanShowInBag(UIID.BagSellInfoUI, itemData) then
+C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gamemodel\playercontrolforcedata.lua:120: r0_15.BagSellIsOpen = r0_2
+C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameplay\guide\guidemanager.lua:1014: local openDir = PlayerControlForceData.BagSellIsOpen()
+C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameplay\guide\guidemanager.lua:1016: UIManager.Show(UIID.BagSellInfoUI)
+C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\bag_3dbaginfoui.lua:197: if UIManager.IsVisibleOrCorrelation(UIID.BagSellInfoUI, self) then
+C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\bag_3dbaginfoui.lua:198: self.curPanelType = UIID.BagSellInfoUI
+C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\bag_3dbaginfoui.lua:449: if BagInfoData.bagFull and not UIManager.IsVisibleOrCorrelation(UIID.BagSellInfoUI, self) then
+C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\bag_3dbaginfoui.lua:846: if not UIManager.IsVisibleOrCorrelation(UIID.BagSellInfoUI, self) then
+C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\bag_3dbaginfoui.lua:891: self:OpenBagSellInfoUI()
+C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\bag_3dbaginfoui.lua:894: function Bag_3DBagInfoUI:OpenBagSellInfoUI() -- proto#50 params=1 locals=2 upvalues=1 vararg=false source=@Assets/Src/Lua/GameUI/Bag_3DBagInfoUI.lua lines=823-842
+C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\bag_3dbaginfoui.lua:899: if not UIManager.IsVisibleOrCorrelation(UIID.BagSellInfoUI, self) then
+C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\bag_3dbaginfoui.lua:903: local openDir = PlayerControlForceData.BagSellIsOpen()
+C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\bag_3dbaginfoui.lua:906: UIManager.Show(UIID.BagSellInfoUI)
+C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\bag_3dbaginfoui.lua:1042: elseif UIManager.IsVisibleOrCorrelation(UIID.BagSellInfoUI, self) then
+C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\bag_3dbaginfoui.lua:1704: elseif self.curPanelType == UIID.BagSellInfoUI then
+C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\bag_sellinfoui.lua:166: UIManager.Hide(UIID.BagSellInfoUI)
+C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\main_mainmenuui.lua:3583: local openDir = PlayerControlForceData.BagSellIsOpen()
+C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\main_mainmenuui.lua:3585: UIManager.Show(UIID.BagSellInfoUI)
+C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\gameui\tip_itemtiptwoui.lua:2971: Bag_3DBagInfoUI:OpenBagSellInfoUI()
+C:\Users\khanhpc\Downloads\mini-agent-v4\mini-agent-v4\lua_inject\src_lua\luacore\ui\uiid.lua:23: BagSellInfoUI = "Bag_SellInfoUI", BagShopInfoUI = "Bag_ShopInfoUI", Shop = "Shop_ShopUI",
+
+--- FILE LOCAL TRONG MU-VNG-BOT (0 clone) ---
